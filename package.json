@@ -1,11 +1,16 @@
 {
-  "name": "interfaces",
+  "name": "kk-interfaces",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
+  }
 }
