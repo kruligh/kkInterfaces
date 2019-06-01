@@ -1,4 +1,4 @@
-import { GetResponseDriver, GetResponsePhoto, GetResponseTrophy } from "./interfaces";
+import { GetResponseDriver, GetResponsePhoto, GetResponseTrophy } from './common';
 
 export interface GetCarProfileResponse {
   plateNumber: string;

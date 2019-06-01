@@ -1,4 +1,4 @@
-import { GetResponseCar, GetResponseTrophy } from './interfaces';
+import { GetResponseCar, GetResponseTrophy } from './common';
 
 export interface GetMyAccountResponse {
   login: string;
