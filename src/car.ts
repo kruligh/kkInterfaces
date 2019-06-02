@@ -8,4 +8,5 @@ export interface GetCarProfileResponse {
   photos: GetResponsePhoto[];
   trophies: GetResponseTrophy[];
   drivers: GetResponseDriver[];
+  canEdit?: boolean;
 }
