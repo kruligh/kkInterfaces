@@ -10,3 +10,10 @@ export interface GetCarProfileResponse {
   drivers: GetResponseDriver[];
   canEdit?: boolean;
 }
+
+export interface EditCarRequest {
+  plateNumber: string;
+  brand: string;
+  model: string;
+  color: string;
+}

@@ -1,22 +1,22 @@
 export interface GetResponseTrophy {
   id: string;
   msg: string;
-  thumb: string;
+  thumb: GetResponsePhoto;
 }
 
 export interface GetResponseDriver {
   id: string;
   nick: string;
-  avatar?: string;
+  avatar: GetResponsePhoto;
 }
 
-export interface GetResponsePhoto {
+export type GetResponsePhoto = {
   id: string;
+} | {
   url: string;
-  thumb: string;
-}
+};
 
 export interface GetResponseCar {
   plateNumber: string;
-  thumb: string;
+  thumb: GetResponsePhoto;
 }
