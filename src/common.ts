@@ -10,11 +10,9 @@ export interface GetResponseDriver {
   avatar: GetResponsePhoto;
 }
 
-export type GetResponsePhoto = {
+export interface GetResponsePhoto {
   id: string;
-} | {
-  url: string;
-};
+}
 
 export interface GetResponseCar {
   plateNumber: string;
