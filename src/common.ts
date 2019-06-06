@@ -11,7 +11,7 @@ export interface GetResponseDriver {
 }
 
 export interface GetResponsePhoto {
-  id: string;
+  url: string;
 }
 
 export interface GetResponseCar {
